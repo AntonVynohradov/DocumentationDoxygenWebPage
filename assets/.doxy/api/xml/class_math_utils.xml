@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.1" xml:lang="en-US">
+  <compounddef id="class_math_utils" kind="class" language="C++" prot="public">
+    <compoundname>MathUtils</compoundname>
+    <includes refid="math_8h" local="no">math.h</includes>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_math_utils_1aa022a85111f9a2e043a158ee5a40f078" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MathUtils::add</definition>
+        <argsstring>(int a, int b)</argsstring>
+        <name>add</name>
+        <qualifiedname>MathUtils::add</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dodaje dwie liczby</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pierwsza liczba </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>druga liczba </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>suma </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/math.h" line="10" column="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<sect1 id="class_math_utils_1autotoc_md0_1s1"><sect2 id="class_math_utils_1autotoc_md0">
+<title>MathUtils</title><para>Proste funkcje matematyczne </para>
+</sect2></sect1>
+    </detaileddescription>
+    <location file="include/math.h" line="3" column="1" bodyfile="include/math.h" bodystart="3" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_math_utils_1aa022a85111f9a2e043a158ee5a40f078" prot="public" virt="non-virtual"><scope>MathUtils</scope><name>add</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
