@@ -1,0 +1,21 @@
+site_name: MyProject Docs
+site_url: https://AntonVynohradov.github.io/DocumentationDoxygenWebPage/
+
+theme:
+  name: material
+
+markdown_extensions:
+  - pymdownx.superfences
+
+plugins:
+  - search
+  - mkdoxy:
+      projects:
+        api:
+          src-dirs: "include src"                   
+
+nav:
+  - Home: index.md
+  - API Reference:
+    - Classes: api/classes.md
+    - Files: api/files.md
